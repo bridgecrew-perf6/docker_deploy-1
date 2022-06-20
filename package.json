@@ -1,0 +1,24 @@
+{
+  "name": "docker_deploy",
+  "version": "1.0.0",
+  "description": "基于docker的极简部署",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve node_service"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iversonwool/docker_deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iversonwool/docker_deploy/issues"
+  },
+  "homepage": "https://github.com/iversonwool/docker_deploy#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
